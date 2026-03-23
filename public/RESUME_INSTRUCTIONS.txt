@@ -1,0 +1,11 @@
+Meher Prakash Resume Placeholder
+
+To enable the resume download:
+1. Export your resume as a PDF
+2. Name it exactly: Meher_Resume.pdf
+3. Place it in this folder: portfolio pep/public/Meher_Resume.pdf
+4. The "Download Resume" button will then work automatically.
+
+Contact: meherpra5@gmail.com
+LinkedIn: https://linkedin.com/in/putta-meher-prakash
+GitHub: https://github.com/Puttameher
