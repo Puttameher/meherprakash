@@ -7,7 +7,7 @@ export const portfolioData = {
     linkedin: "https://linkedin.com/in/putta-meher-prakash",
     github: "https://github.com/Puttameher",
     phone: "+91-6304276594",
-    bio: "I'm a Computer Science Engineering student at Lovely Professional University with a passion for Machine Learning and AI. I build intelligent systems and full-stack applications that solve real-world problems — from health intelligence platforms to AI coding mentors and secure system interfaces.",
+    bio: "I'm a Computer Science Engineering student at Lovely Professional University with a passion for Machine Learning and AI. I build intelligent systems and full-stack applications that solve real-world problems.",
   },
 
   skills: {
@@ -36,7 +36,7 @@ export const portfolioData = {
     {
       id: 1,
       title: "Lifestyle & Wellness Intelligence System",
-      description: "End-to-end ML-powered web app that predicts health risk levels and wellness scores from lifestyle data. Features visual analytics with correlation heatmaps, interactive gauges, and personalized wellness insights using Logistic Regression, KNN, Naive Bayes, Random Forest, and Linear Regression.",
+      description: "End-to-end ML-powered web app that predicts health risk levels and wellness scores from lifestyle data. Features visual analytics with correlation heatmaps, interactive gauges, and actionable recommendations.",
       tech: ["HTML", "CSS", "ML Stack", "Python", "Scikit-Learn"],
       github: "https://github.com/Puttameher",
       period: "Sep '25 – Oct '25",
@@ -45,7 +45,7 @@ export const portfolioData = {
     {
       id: 2,
       title: "AI Coding Mentor",
-      description: "AI-powered coding assistant providing real-time feedback, contextual explanations, and personalized learning for all skill levels. Full-stack system with HTML/CSS/JS frontend, AI explanation modules, dark mode UI, dynamic quiz generation, PDF export, and multi-language support.",
+      description: "AI-powered coding assistant providing real-time feedback, contextual explanations, and personalized learning for all skill levels. Full-stack system with HTML/CSS/JS frontend, Python backend, and Google API integration.",
       tech: ["HTML", "CSS", "JavaScript", "Python", "Google API"],
       github: "https://github.com/Puttameher",
       period: "Apr '25 – May '25",
@@ -53,12 +53,36 @@ export const portfolioData = {
     },
     {
       id: 3,
-      title: "Secure System Call Interface",
-      description: "Secure system-call execution interface using Python & Flask with JWT authentication, preventing unauthorized access and enhancing OS-level security. Features role-based access control (RBAC), MFA-ready authentication, detailed audit logging, and real-time log monitoring.",
-      tech: ["HTML", "CSS", "JavaScript", "Python", "Flask", "JWT"],
-      github: "https://github.com/Puttameher",
-      period: "Feb '25 – Mar '25",
+      title: "Investment Genie — AI Investment Research Agent",
+      description: "Production-grade autonomous AI Investment Research Agent delivering structured INVEST/PASS verdicts in ~15 seconds via parallelized 5-agent LangGraph.js pipeline with premium Skeuomorphic & Glassmorphic dashboard.",
+      tech: ["Next.js 16", "LangGraph.js", "Groq API", "TypeScript", "SSE Streaming", "Recharts"],
+      github: "https://github.com/Meherpra/investement",
+      liveDemo: "https://investement-bxwf.vercel.app",
+      period: "Oct '25 – Nov '25",
       gradient: "from-rose-600 to-orange-600",
+      details: {
+        whatItDoes: [
+          "Enter company name → 5 AI agents run in parallel → full investment report in ~15 seconds",
+          "Research Brief, SWOT Analysis, Risk Assessment (5 categories with severity ratings)",
+          "Sentiment Analysis (Bullish/Bearish/Neutral) with 0–100 conviction score",
+          "Real-time 30-day stock charts and follow-up AI chatbot sidebar"
+        ],
+        agents: [
+          "🌐 Researcher — Live news, financials, competitors via Google Search",
+          "📊 Financial Analyst — SWOT analysis, competitive moat, revenue model",
+          "💬 Sentiment Analyst — News tone, market narrative, analyst consensus",
+          "⚠️ Risk Assessor — 5 risk categories with Low → Critical severity ratings",
+          "🏛️ Investment Committee — Final INVEST/PASS verdict with conviction score"
+        ],
+        keyHighlights: [
+          "Parallelized multi-agent orchestration reduces execution time from ~40s to ~15s",
+          "Real-time streaming UI via Server-Sent Events (SSE)",
+          "Graceful fallbacks (Llama-3.1-8b on rate limits; Yahoo Finance fallback)",
+          "Print-to-PDF report export with CSS @media print",
+          "Telegram bot integration (node-telegram-bot-api)",
+          "TypeScript throughout with Zod schema validation"
+        ]
+      }
     },
   ],
 
