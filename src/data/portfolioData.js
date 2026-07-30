@@ -48,7 +48,7 @@ export const portfolioData = {
       id: 2,
       title: "AI Coding Mentor",
       description: "AI-powered coding assistant providing real-time feedback, contextual explanations, and personalized learning for all skill levels. Full-stack system with frontend, Python backe[...]",
-      tech: ["Python", "Google API", "AI", "Backend"],
+      tech: ["Python", "Google API", "LangChain", "AI", "Backend"],
       github: "https://github.com/Puttameher",
       period: "Apr '25 – May '25",
       gradient: "from-cyan-600 to-teal-600",
