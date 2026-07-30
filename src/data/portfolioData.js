@@ -61,7 +61,7 @@ export const portfolioData = {
       title: "Investment Genie — AI Investment Research Agent",
       description: "Production-grade autonomous AI Investment Research Agent delivering structured INVEST/PASS verdicts in ~15 seconds via parallelized 5-agent LangGraph.js pipeline with premium S[...]",
       tech: ["Next.js 16", "LangGraph.js", "LangChain", "Groq API", "TypeScript", "SSE Streaming", "Recharts"],
-      image: "/secure_system.png",
+      image: "/investment_genie.png",
       github: "https://github.com/Meherpra/investement",
       liveDemo: "https://investement-genie.vercel.app/",
       period: "Oct '25 – Nov '25",
