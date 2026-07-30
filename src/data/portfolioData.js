@@ -7,7 +7,7 @@ export const portfolioData = {
     linkedin: "https://linkedin.com/in/putta-meher-prakash",
     github: "https://github.com/Puttameher",
     phone: "+91-6304276594",
-    bio: "I'm a Computer Science Engineering student at Lovely Professional University with a passion for Machine Learning and AI. I build intelligent systems and full-stack applications that solve real-world problems.",
+    bio: "I'm a Computer Science Engineering student at Lovely Professional University with a passion for Machine Learning and AI. I build intelligent systems and full-stack applications that solv[...]",
   },
 
   skills: {
@@ -38,7 +38,7 @@ export const portfolioData = {
     {
       id: 1,
       title: "Lifestyle & Wellness Intelligence System",
-      description: "End-to-end ML-powered web app that predicts health risk levels and wellness scores from lifestyle data. Features visual analytics with correlation heatmaps, interactive gauges, and actionable recommendations.",
+      description: "End-to-end ML-powered web app that predicts health risk levels and wellness scores from lifestyle data. Features visual analytics with correlation heatmaps, interactive gauges,[...]",
       tech: ["Python", "Scikit-Learn", "ML Stack", "Data Analysis", "Visualization"],
       github: "https://github.com/Puttameher",
       period: "Sep '25 – Oct '25",
@@ -47,8 +47,8 @@ export const portfolioData = {
     {
       id: 2,
       title: "AI Coding Mentor",
-      description: "AI-powered coding assistant providing real-time feedback, contextual explanations, and personalized learning for all skill levels. Full-stack system with frontend, Python backend, and Google API integration.",
-      tech: ["Python", "Google API", "LangChain", "AI", "Backend"],
+      description: "AI-powered coding assistant providing real-time feedback, contextual explanations, and personalized learning for all skill levels. Full-stack system with frontend, Python backe[...]",
+      tech: ["Python", "Google API", "AI", "Backend"],
       github: "https://github.com/Puttameher",
       period: "Apr '25 – May '25",
       gradient: "from-cyan-600 to-teal-600",
@@ -56,7 +56,7 @@ export const portfolioData = {
     {
       id: 3,
       title: "Investment Genie — AI Investment Research Agent",
-      description: "Production-grade autonomous AI Investment Research Agent delivering structured INVEST/PASS verdicts in ~15 seconds via parallelized 5-agent LangGraph.js pipeline with premium Skeuomorphic & Glassmorphic dashboard.",
+      description: "Production-grade autonomous AI Investment Research Agent delivering structured INVEST/PASS verdicts in ~15 seconds via parallelized 5-agent LangGraph.js pipeline with premium S[...]",
       tech: ["Next.js 16", "LangGraph.js", "LangChain", "Groq API", "TypeScript", "SSE Streaming", "Recharts"],
       github: "https://github.com/Meherpra/investement",
       liveDemo: "https://investement-bxwf.vercel.app",
